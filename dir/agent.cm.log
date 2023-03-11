@@ -1,0 +1,486 @@
+2023-03-01 16:53:41,532[__main__start]Traceback (most recent call last):
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\core.py", line 152, in _async_task
+    raise NameError(event.name)
+NameError: sendms
+
+2023-03-01 16:54:09,517[__main__start]Traceback (most recent call last):
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\core.py", line 152, in _async_task
+    raise NameError(event.name)
+NameError: sendms
+
+2023-03-01 16:56:44,961[__main__start]Lost remote after 10s heartbeat
+2023-03-01 16:57:50,943[__main__start]Lost remote after 10s heartbeat
+2023-03-01 17:02:05,028[__main__start]Lost remote after 10s heartbeat
+2023-03-01 17:02:49,915[__main__start]Lost remote after 10s heartbeat
+2023-03-01 20:37:00,054[__main__start]Lost remote after 10s heartbeat
+2023-03-01 20:38:47,161[__main__start]Lost remote after 10s heartbeat
+2023-03-01 20:39:28,323[__main__start]Lost remote after 10s heartbeat
+2023-03-01 21:26:34,422[agent.cmstart]Traceback (most recent call last):
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\core.py", line 152, in _async_task
+    raise NameError(event.name)
+NameError: sendms
+
+2023-03-01 21:28:52,768[agent.cmstart]Traceback (most recent call last):
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\core.py", line 152, in _async_task
+    raise NameError(event.name)
+NameError: sendms
+
+2023-03-02 16:33:37,375[agent.cmstart]Traceback (most recent call last):
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\core.py", line 152, in _async_task
+    raise NameError(event.name)
+NameError: sendms
+
+2023-03-03 15:30:32,659[agent.cmstart]send back {'type': 'register', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:30:34,684[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:30:36,709[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:30:38,737[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:30:40,761[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:30:42,785[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:30:44,811[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:30:46,836[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:30:48,861[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:30:50,885[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:30:52,908[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:30:54,932[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:30:56,961[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:30:58,984[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:31:01,008[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:31:03,033[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:31:05,057[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:31:07,082[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:31:09,105[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:31:11,129[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:31:13,155[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:31:15,181[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:31:17,207[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:31:19,232[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'f52f2996fc814a3f98bd2637dc8312cc', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:53:08,878[agent.cmstart]send back {'type': 'register', 'payload': {'id': '13ca4015a4c64b51a9dfe98899eab8a5', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:53:10,902[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '13ca4015a4c64b51a9dfe98899eab8a5', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:53:12,928[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '13ca4015a4c64b51a9dfe98899eab8a5', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:53:14,952[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '13ca4015a4c64b51a9dfe98899eab8a5', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:53:36,192[agent.cmstart]Lost remote after 10s heartbeat
+2023-03-03 15:53:40,195[agent.cmstart]Unknown error
+2023-03-03 15:53:44,195[agent.cmstart]Unknown error
+2023-03-03 15:53:48,197[agent.cmstart]Unknown error
+2023-03-03 15:53:52,198[agent.cmstart]Unknown error
+2023-03-03 15:53:56,199[agent.cmstart]Unknown error
+2023-03-03 15:54:00,199[agent.cmstart]Unknown error
+2023-03-03 15:54:04,200[agent.cmstart]Unknown error
+2023-03-03 15:54:08,200[agent.cmstart]Unknown error
+2023-03-03 15:54:12,201[agent.cmstart]Unknown error
+2023-03-03 15:54:16,202[agent.cmstart]Unknown error
+2023-03-03 15:54:20,202[agent.cmstart]Unknown error
+2023-03-03 15:54:24,202[agent.cmstart]Unknown error
+2023-03-03 15:54:28,203[agent.cmstart]Unknown error
+2023-03-03 15:54:51,302[agent.cmstart]send back {'type': 'register', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:54:53,327[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:54:55,351[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:54:57,374[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:54:59,402[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:01,428[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:03,452[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:05,477[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:07,503[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:09,526[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:11,553[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:13,578[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:15,604[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:17,630[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:19,654[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:21,678[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:23,702[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:25,728[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:27,751[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:29,777[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:31,802[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:33,830[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:35,854[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:37,878[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:39,904[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:41,929[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:55:43,953[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': 'dba984052656468ebbe634caf3f3db70', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-03 15:59:07,715[agent.cmstart]123Lost remote after 10s heartbeat
+2023-03-03 15:59:11,717[agent.cmstart]123Unknown error
+2023-03-03 15:59:15,717[agent.cmstart]123Unknown error
+2023-03-03 15:59:19,717[agent.cmstart]123Unknown error
+2023-03-03 15:59:23,718[agent.cmstart]123Unknown error
+2023-03-03 15:59:27,719[agent.cmstart]123Unknown error
+2023-03-03 15:59:31,720[agent.cmstart]123Unknown error
+2023-03-03 15:59:35,720[agent.cmstart]123Unknown error
+2023-03-03 15:59:39,721[agent.cmstart]123Unknown error
+2023-03-03 15:59:43,722[agent.cmstart]123Unknown error
+2023-03-04 09:43:30,845[agent.cmstart]send back {'type': 'register', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 09:43:32,874[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 09:43:34,899[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 09:43:36,924[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 09:43:38,949[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 09:43:40,973[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 09:43:42,998[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 09:43:45,022[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 09:43:47,047[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 09:43:49,074[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 09:43:51,098[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 09:43:53,122[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 09:43:55,151[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 09:43:57,176[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 09:43:59,201[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 09:44:01,226[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 09:44:03,250[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 09:44:05,276[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:21:33,556[agent.cmstart]send back {'type': 'register', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:21:35,581[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:21:37,606[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:21:39,631[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:21:41,656[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:21:43,682[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:21:45,708[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:21:47,733[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:21:49,758[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:21:51,782[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:21:53,806[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:21:55,830[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:21:57,854[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:21:59,883[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:22:01,907[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:22:03,931[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:22:05,955[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:22:07,978[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:22:10,002[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:22:12,025[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:22:14,048[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:22:16,074[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:22:18,097[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:22:20,122[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:22:22,147[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:55:38,623[agent.cmstart]123Traceback (most recent call last):
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\cm.py", line 10, in handle
+    self.storage[msg['payload']['id']]=msg['payload']['hostname'],msg['payload']['ip']
+TypeError: 'Storage' object does not support item assignment
+
+2023-03-04 10:55:42,626[agent.cmstart]123Unknown error
+2023-03-04 10:55:46,627[agent.cmstart]123Unknown error
+2023-03-04 10:55:50,628[agent.cmstart]123Unknown error
+2023-03-04 10:55:54,629[agent.cmstart]123Unknown error
+2023-03-04 10:55:58,630[agent.cmstart]123Unknown error
+2023-03-04 10:56:02,630[agent.cmstart]123Unknown error
+2023-03-04 10:56:06,630[agent.cmstart]123Unknown error
+2023-03-04 10:56:10,631[agent.cmstart]123Unknown error
+2023-03-04 10:56:14,632[agent.cmstart]123Unknown error
+2023-03-04 10:56:18,632[agent.cmstart]123Unknown error
+2023-03-04 10:56:22,633[agent.cmstart]123Unknown error
+2023-03-04 10:56:26,633[agent.cmstart]123Unknown error
+2023-03-04 10:56:30,634[agent.cmstart]123Unknown error
+2023-03-04 10:56:34,635[agent.cmstart]123Unknown error
+2023-03-04 10:56:38,635[agent.cmstart]123Unknown error
+2023-03-04 10:56:42,636[agent.cmstart]123Unknown error
+2023-03-04 10:56:46,636[agent.cmstart]123Unknown error
+2023-03-04 10:56:50,637[agent.cmstart]123Unknown error
+2023-03-04 10:56:54,638[agent.cmstart]123Unknown error
+2023-03-04 10:56:57,650[agent.cmstart]send back {'type': 'register', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:56:59,674[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:01,697[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:03,723[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:05,747[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:07,775[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:09,798[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:11,822[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:13,846[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:15,871[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:17,898[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:19,923[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:21,947[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:23,971[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:25,996[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:28,020[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:30,043[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:32,067[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:34,092[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:36,117[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:38,141[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:40,168[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:42,191[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:44,214[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:46,239[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:48,263[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:50,286[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:52,312[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:54,337[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:56,361[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:57:58,386[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:58:00,409[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:58:02,433[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:58:04,992[agent.cmstart]send back {'type': 'register', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:58:07,021[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:58:09,045[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 10:58:11,071[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 17:58:11,005[agent.cmstart]send back {'type': 'register', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 17:58:13,029[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 17:58:15,056[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 17:58:17,081[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 17:58:19,105[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 17:58:21,129[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 17:58:23,153[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 17:58:25,179[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 17:58:27,206[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 17:58:29,229[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 17:58:31,255[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 17:58:33,279[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:02:29,587[agent.cmstart]123Lost remote after 10s heartbeat
+2023-03-04 18:02:33,590[agent.cmstart]123Unknown error
+2023-03-04 18:02:37,591[agent.cmstart]123Unknown error
+2023-03-04 18:02:41,592[agent.cmstart]123Unknown error
+2023-03-04 18:03:01,572[agent.cmstart]send back {'type': 'register', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:03,597[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:05,623[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:07,650[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:09,675[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:11,699[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:13,725[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:15,749[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:17,776[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:19,800[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:21,823[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:23,850[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:25,875[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:27,901[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:29,925[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:31,950[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:33,975[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:36,005[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:38,030[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-04 18:03:40,055[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:20:08,318[agent.cmstart]123Traceback (most recent call last):
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\cm.py", line 18, in handle
+    self.storage.reg_hb(**msg['payload'])
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\storage.py", line 13, in reg_hb
+    print(id,kwargs[id])
+KeyError: <built-in function id>
+
+2023-03-06 15:20:12,325[agent.cmstart]123Unknown error
+2023-03-06 15:20:16,325[agent.cmstart]123Unknown error
+2023-03-06 15:20:20,325[agent.cmstart]123Unknown error
+2023-03-06 15:20:24,325[agent.cmstart]123Unknown error
+2023-03-06 15:20:28,326[agent.cmstart]123Unknown error
+2023-03-06 15:20:32,327[agent.cmstart]123Unknown error
+2023-03-06 15:20:36,327[agent.cmstart]123Unknown error
+2023-03-06 15:20:40,327[agent.cmstart]123Unknown error
+2023-03-06 15:20:44,328[agent.cmstart]123Unknown error
+2023-03-06 15:20:48,328[agent.cmstart]123Unknown error
+2023-03-06 15:20:52,328[agent.cmstart]123Unknown error
+2023-03-06 15:20:56,329[agent.cmstart]123Unknown error
+2023-03-06 15:21:00,330[agent.cmstart]123Unknown error
+2023-03-06 15:21:04,330[agent.cmstart]123Unknown error
+2023-03-06 15:21:08,331[agent.cmstart]123Unknown error
+2023-03-06 15:21:09,576[agent.cmstart]123Traceback (most recent call last):
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\cm.py", line 18, in handle
+    self.storage.reg_hb(**msg['payload'])
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\storage.py", line 13, in reg_hb
+    print(ia)
+KeyError: <built-in function id>
+
+2023-03-06 15:21:13,577[agent.cmstart]123Unknown error
+2023-03-06 15:21:17,578[agent.cmstart]123Unknown error
+2023-03-06 15:21:21,578[agent.cmstart]123Unknown error
+2023-03-06 15:21:25,579[agent.cmstart]123Unknown error
+2023-03-06 15:21:29,580[agent.cmstart]123Unknown error
+2023-03-06 15:21:33,231[agent.cmstart]123Traceback (most recent call last):
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\cm.py", line 18, in handle
+    self.storage.reg_hb(**msg['payload'])
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\storage.py", line 12, in reg_hb
+    self.agents[ia]=Agent(**kwargs)
+NameError: name 'ia' is not defined
+
+2023-03-06 15:21:37,232[agent.cmstart]123Unknown error
+2023-03-06 15:21:41,233[agent.cmstart]123Unknown error
+2023-03-06 15:21:45,233[agent.cmstart]123Unknown error
+2023-03-06 15:21:49,234[agent.cmstart]123Unknown error
+2023-03-06 15:21:53,234[agent.cmstart]123Unknown error
+2023-03-06 15:21:57,235[agent.cmstart]123Unknown error
+2023-03-06 15:22:01,236[agent.cmstart]123Unknown error
+2023-03-06 15:22:05,236[agent.cmstart]123Unknown error
+2023-03-06 15:22:09,236[agent.cmstart]123Unknown error
+2023-03-06 15:22:13,237[agent.cmstart]123Unknown error
+2023-03-06 15:22:17,238[agent.cmstart]123Unknown error
+2023-03-06 15:22:21,265[agent.cmstart]123Traceback (most recent call last):
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\cm.py", line 18, in handle
+    self.storage.reg_hb(**msg['payload'])
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\storage.py", line 12, in reg_hb
+    self.agents[hosename]=Agent(**kwargs)
+NameError: name 'ia' is not defined
+
+2023-03-06 15:22:25,266[agent.cmstart]123Unknown error
+2023-03-06 15:22:29,267[agent.cmstart]123Unknown error
+2023-03-06 15:22:33,267[agent.cmstart]123Unknown error
+2023-03-06 15:22:37,268[agent.cmstart]123Unknown error
+2023-03-06 15:22:41,564[agent.cmstart]123Traceback (most recent call last):
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\venv\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\cm.py", line 18, in handle
+    self.storage.reg_hb(**msg['payload'])
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\storage.py", line 12, in reg_hb
+    self.agents[hosename]=Agent(**kwargs)
+NameError: name 'hosename' is not defined
+
+2023-03-06 15:22:45,566[agent.cmstart]123Unknown error
+2023-03-06 15:22:49,566[agent.cmstart]123Unknown error
+2023-03-06 15:24:43,334[agent.cmstart]send back {'type': 'register', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:24:45,360[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:24:47,383[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:24:49,409[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:24:51,435[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:24:53,461[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:24:55,487[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:24:57,511[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:24:59,537[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:25:01,562[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:25:03,586[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:25:05,609[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:25:07,633[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:25:09,659[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:28:11,621[agent.cmstart]send back {'type': 'register', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:28:13,646[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:28:15,670[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:28:17,694[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:28:19,720[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:28:21,746[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:28:23,770[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:28:25,797[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:28:27,823[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:28:29,847[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:28:31,871[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:28:33,895[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:28:35,920[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:28:37,944[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:28:39,968[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 15:28:41,993[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:06:36,079[agent.cmstart]123Lost remote after 10s heartbeat
+2023-03-06 23:06:40,082[agent.cmstart]123Unknown error
+2023-03-06 23:06:44,083[agent.cmstart]123Unknown error
+2023-03-06 23:06:48,083[agent.cmstart]123Unknown error
+2023-03-06 23:06:52,084[agent.cmstart]123Unknown error
+2023-03-06 23:06:56,084[agent.cmstart]123Unknown error
+2023-03-06 23:07:00,084[agent.cmstart]123Unknown error
+2023-03-06 23:07:04,084[agent.cmstart]123Unknown error
+2023-03-06 23:07:08,084[agent.cmstart]123Unknown error
+2023-03-06 23:07:12,085[agent.cmstart]123Unknown error
+2023-03-06 23:07:16,085[agent.cmstart]123Unknown error
+2023-03-06 23:07:20,086[agent.cmstart]123Unknown error
+2023-03-06 23:07:24,087[agent.cmstart]123Unknown error
+2023-03-06 23:07:28,088[agent.cmstart]123Unknown error
+2023-03-06 23:07:32,088[agent.cmstart]123Unknown error
+2023-03-06 23:07:36,089[agent.cmstart]123Unknown error
+2023-03-06 23:07:40,090[agent.cmstart]123Unknown error
+2023-03-06 23:07:44,090[agent.cmstart]123Unknown error
+2023-03-06 23:07:48,091[agent.cmstart]123Unknown error
+2023-03-06 23:07:52,092[agent.cmstart]123Unknown error
+2023-03-06 23:07:56,093[agent.cmstart]123Unknown error
+2023-03-06 23:08:00,093[agent.cmstart]123Unknown error
+2023-03-06 23:08:04,094[agent.cmstart]123Unknown error
+2023-03-06 23:08:08,095[agent.cmstart]123Unknown error
+2023-03-06 23:08:12,096[agent.cmstart]123Unknown error
+2023-03-06 23:08:16,096[agent.cmstart]123Unknown error
+2023-03-06 23:08:20,096[agent.cmstart]123Unknown error
+2023-03-06 23:08:24,097[agent.cmstart]123Unknown error
+2023-03-06 23:08:28,098[agent.cmstart]123Unknown error
+2023-03-06 23:08:32,098[agent.cmstart]123Unknown error
+2023-03-06 23:08:36,100[agent.cmstart]123Unknown error
+2023-03-06 23:08:40,101[agent.cmstart]123Unknown error
+2023-03-06 23:08:44,101[agent.cmstart]123Unknown error
+2023-03-06 23:08:48,102[agent.cmstart]123Unknown error
+2023-03-06 23:08:52,103[agent.cmstart]123Unknown error
+2023-03-06 23:08:56,103[agent.cmstart]123Unknown error
+2023-03-06 23:09:00,103[agent.cmstart]123Unknown error
+2023-03-06 23:09:04,103[agent.cmstart]123Unknown error
+2023-03-06 23:09:08,104[agent.cmstart]123Unknown error
+2023-03-06 23:09:12,105[agent.cmstart]123Unknown error
+2023-03-06 23:09:16,105[agent.cmstart]123Unknown error
+2023-03-06 23:09:20,055[agent.cmstart]123Unknown error
+2023-03-06 23:09:24,052[agent.cmstart]123Unknown error
+2023-03-06 23:09:28,053[agent.cmstart]123Unknown error
+2023-03-06 23:09:32,053[agent.cmstart]123Unknown error
+2023-03-06 23:09:36,055[agent.cmstart]123Unknown error
+2023-03-06 23:09:40,056[agent.cmstart]123Unknown error
+2023-03-06 23:09:44,057[agent.cmstart]123Unknown error
+2023-03-06 23:09:48,057[agent.cmstart]123Unknown error
+2023-03-06 23:09:52,057[agent.cmstart]123Unknown error
+2023-03-06 23:09:56,058[agent.cmstart]123Unknown error
+2023-03-06 23:10:00,059[agent.cmstart]123Unknown error
+2023-03-06 23:10:04,060[agent.cmstart]123Unknown error
+2023-03-06 23:10:08,060[agent.cmstart]123Unknown error
+2023-03-06 23:10:12,060[agent.cmstart]123Unknown error
+2023-03-06 23:10:16,062[agent.cmstart]123Unknown error
+2023-03-06 23:10:20,062[agent.cmstart]123Unknown error
+2023-03-06 23:10:24,063[agent.cmstart]123Unknown error
+2023-03-06 23:10:28,064[agent.cmstart]123Unknown error
+2023-03-06 23:10:32,182[agent.cmstart]send back {'type': 'register', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:10:34,208[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:10:36,234[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:10:38,258[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:10:40,283[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:10:42,309[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:10:44,334[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:10:46,360[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:10:48,385[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:11:05,407[agent.cmstart]123Lost remote after 10s heartbeat
+2023-03-06 23:11:09,409[agent.cmstart]123Unknown error
+2023-03-06 23:11:13,410[agent.cmstart]123Unknown error
+2023-03-06 23:11:17,412[agent.cmstart]123Unknown error
+2023-03-06 23:11:21,413[agent.cmstart]123Unknown error
+2023-03-06 23:11:25,413[agent.cmstart]123Unknown error
+2023-03-06 23:11:29,414[agent.cmstart]123Unknown error
+2023-03-06 23:11:33,415[agent.cmstart]123Unknown error
+2023-03-06 23:11:37,415[agent.cmstart]123Unknown error
+2023-03-06 23:11:42,163[agent.cmstart]send back {'type': 'register', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:11:44,190[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:11:46,215[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:11:48,242[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:11:50,267[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:11:52,292[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:11:54,321[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:11:56,345[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:11:58,370[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:12:00,394[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:12:03,027[agent.cmstart]send back {'type': 'register', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:12:05,053[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:12:07,079[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:12:09,104[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:26:02,988[agent.cmstart]send back {'type': 'register', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:26:05,012[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:26:07,040[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:26:09,064[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:26:11,089[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-06 23:26:13,114[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
