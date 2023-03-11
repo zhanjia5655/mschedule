@@ -17,5 +17,3 @@ class Storage:
         print(123,self.agents) #123 {'8bfce475806e469b8d64012ed1dfc1a7': ('8bfce475806e469b8d64012ed1dfc1a7', 'zhanjia-pc', ['200.200.200.88'])}
     # def reg_hb(self,id,hostname,ip):
     #     self.agents][id]=Agent(id,hostname,ip)
-    # def reg_hb(self,id,hostname,ip):
-    #     self.agents][id]=Agent(id,hostname,ip)
