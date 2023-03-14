@@ -484,3 +484,770 @@ NameError: name 'hosename' is not defined
 2023-03-06 23:26:09,064[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
 2023-03-06 23:26:11,089[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
 2023-03-06 23:26:13,114[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 17:49:31,784[agent.cmstart]123Traceback (most recent call last):
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\cm.py", line 18, in handle
+    self.storage.reg_hb(**msg['payload'])
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\storage.py", line 14, in reg_hb
+    agent=self.agents[id]
+KeyError: <built-in function id>
+
+2023-03-12 17:49:35,791[agent.cmstart]123Unknown error
+2023-03-12 17:49:39,792[agent.cmstart]123Unknown error
+2023-03-12 17:49:43,792[agent.cmstart]123Unknown error
+2023-03-12 19:26:35,829[agent.cmstart]123Traceback (most recent call last):
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\cm.py", line 18, in handle
+    self.storage.reg_hb(**msg['payload'])
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\storage.py", line 23, in reg_hb
+    print(id,hostname,ip)
+NameError: name 'hostname' is not defined
+
+2023-03-12 19:26:39,831[agent.cmstart]123Unknown error
+2023-03-12 19:26:43,832[agent.cmstart]123Unknown error
+2023-03-12 19:26:47,832[agent.cmstart]123Unknown error
+2023-03-12 19:26:51,832[agent.cmstart]123Unknown error
+2023-03-12 19:26:55,832[agent.cmstart]123Unknown error
+2023-03-12 19:26:59,832[agent.cmstart]123Unknown error
+2023-03-12 19:27:03,832[agent.cmstart]123Unknown error
+2023-03-12 19:27:07,833[agent.cmstart]123Unknown error
+2023-03-12 19:27:11,833[agent.cmstart]123Unknown error
+2023-03-12 19:27:15,833[agent.cmstart]123Unknown error
+2023-03-12 19:27:19,833[agent.cmstart]123Unknown error
+2023-03-12 19:27:23,833[agent.cmstart]123Unknown error
+2023-03-12 19:27:27,834[agent.cmstart]123Unknown error
+2023-03-12 19:27:31,834[agent.cmstart]123Unknown error
+2023-03-12 19:27:35,834[agent.cmstart]123Unknown error
+2023-03-12 19:27:39,835[agent.cmstart]123Unknown error
+2023-03-12 19:27:43,835[agent.cmstart]123Unknown error
+2023-03-12 19:27:47,835[agent.cmstart]123Unknown error
+2023-03-12 19:27:51,836[agent.cmstart]123Unknown error
+2023-03-12 19:27:55,915[agent.cmstart]123Traceback (most recent call last):
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\cm.py", line 18, in handle
+    self.storage.reg_hb(**msg['payload'])
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\storage.py", line 23, in reg_hb
+    print(id,ip)
+NameError: name 'ip' is not defined
+
+2023-03-12 19:27:59,918[agent.cmstart]123Unknown error
+2023-03-12 19:28:03,918[agent.cmstart]123Unknown error
+2023-03-12 19:28:07,918[agent.cmstart]123Unknown error
+2023-03-12 19:28:11,919[agent.cmstart]123Unknown error
+2023-03-12 19:28:15,919[agent.cmstart]123Unknown error
+2023-03-12 19:28:19,920[agent.cmstart]123Unknown error
+2023-03-12 19:28:24,174[agent.cmstart]send back {'type': 'register', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 19:28:26,200[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 19:28:28,226[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 19:28:30,257[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 19:28:32,280[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 19:28:34,306[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 19:28:36,332[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 19:28:38,357[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 19:28:40,382[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 19:28:42,407[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 19:28:44,433[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 19:28:46,459[agent.cmstart]send back {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 19:54:31,252[agent.cmstart]123Traceback (most recent call last):
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\cm.py", line 18, in handle
+    self.storage.reg_hb(**msg['payload'])
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\storage.py", line 26, in reg_hb
+    self.agents[id]=Agent(id,hostname,ip)
+TypeError: __init__() takes 1 positional argument but 4 were given
+
+2023-03-12 19:54:35,253[agent.cmstart]123Unknown error
+2023-03-12 19:54:39,254[agent.cmstart]123Unknown error
+2023-03-12 19:54:43,254[agent.cmstart]123Unknown error
+2023-03-12 19:54:47,255[agent.cmstart]123Unknown error
+2023-03-12 19:54:51,256[agent.cmstart]123Unknown error
+2023-03-12 19:54:55,256[agent.cmstart]123Unknown error
+2023-03-12 19:54:59,256[agent.cmstart]123Unknown error
+2023-03-12 19:55:03,257[agent.cmstart]123Unknown error
+2023-03-12 19:55:07,257[agent.cmstart]123Unknown error
+2023-03-12 19:55:11,258[agent.cmstart]123Unknown error
+2023-03-12 19:55:15,258[agent.cmstart]123Unknown error
+2023-03-12 19:55:19,259[agent.cmstart]123Unknown error
+2023-03-12 19:55:23,259[agent.cmstart]123Unknown error
+2023-03-12 19:55:27,260[agent.cmstart]123Unknown error
+2023-03-12 19:55:31,261[agent.cmstart]123Unknown error
+2023-03-12 19:55:35,261[agent.cmstart]123Unknown error
+2023-03-12 19:55:39,262[agent.cmstart]123Unknown error
+2023-03-12 19:55:43,262[agent.cmstart]123Unknown error
+2023-03-12 19:55:47,262[agent.cmstart]123Unknown error
+2023-03-12 19:55:51,263[agent.cmstart]123Unknown error
+2023-03-12 19:55:55,263[agent.cmstart]123Unknown error
+2023-03-12 19:55:59,263[agent.cmstart]123Unknown error
+2023-03-12 19:56:03,264[agent.cmstart]123Unknown error
+2023-03-12 19:56:07,264[agent.cmstart]123Unknown error
+2023-03-12 19:56:11,264[agent.cmstart]123Unknown error
+2023-03-12 19:56:15,265[agent.cmstart]123Unknown error
+2023-03-12 19:56:19,265[agent.cmstart]123Unknown error
+2023-03-12 19:56:23,266[agent.cmstart]123Unknown error
+2023-03-12 19:56:27,266[agent.cmstart]123Unknown error
+2023-03-12 19:56:31,267[agent.cmstart]123Unknown error
+2023-03-12 19:56:35,267[agent.cmstart]123Unknown error
+2023-03-12 19:56:39,268[agent.cmstart]123Unknown error
+2023-03-12 19:56:43,268[agent.cmstart]123Unknown error
+2023-03-12 19:56:47,268[agent.cmstart]123Unknown error
+2023-03-12 19:56:51,269[agent.cmstart]123Unknown error
+2023-03-12 19:56:55,269[agent.cmstart]123Unknown error
+2023-03-12 19:56:59,270[agent.cmstart]123Unknown error
+2023-03-12 19:57:03,271[agent.cmstart]123Unknown error
+2023-03-12 19:57:07,271[agent.cmstart]123Unknown error
+2023-03-12 19:57:11,272[agent.cmstart]123Unknown error
+2023-03-12 19:57:15,272[agent.cmstart]123Unknown error
+2023-03-12 19:57:19,272[agent.cmstart]123Unknown error
+2023-03-12 19:57:23,273[agent.cmstart]123Unknown error
+2023-03-12 19:57:27,273[agent.cmstart]123Unknown error
+2023-03-12 19:57:31,273[agent.cmstart]123Unknown error
+2023-03-12 19:57:35,274[agent.cmstart]123Unknown error
+2023-03-12 19:57:39,274[agent.cmstart]123Unknown error
+2023-03-12 19:57:43,275[agent.cmstart]123Unknown error
+2023-03-12 19:57:47,275[agent.cmstart]123Unknown error
+2023-03-12 19:57:51,275[agent.cmstart]123Unknown error
+2023-03-12 19:57:55,277[agent.cmstart]123Unknown error
+2023-03-12 19:57:59,277[agent.cmstart]123Unknown error
+2023-03-12 19:58:03,277[agent.cmstart]123Unknown error
+2023-03-12 19:58:07,278[agent.cmstart]123Unknown error
+2023-03-12 19:58:11,278[agent.cmstart]123Unknown error
+2023-03-12 19:58:15,279[agent.cmstart]123Unknown error
+2023-03-12 19:58:19,279[agent.cmstart]123Unknown error
+2023-03-12 19:58:23,280[agent.cmstart]123Unknown error
+2023-03-12 19:58:27,280[agent.cmstart]123Unknown error
+2023-03-12 19:58:31,281[agent.cmstart]123Unknown error
+2023-03-12 19:58:35,281[agent.cmstart]123Unknown error
+2023-03-12 19:58:39,282[agent.cmstart]123Unknown error
+2023-03-12 19:58:43,283[agent.cmstart]123Unknown error
+2023-03-12 19:58:47,284[agent.cmstart]123Unknown error
+2023-03-12 19:58:51,284[agent.cmstart]123Unknown error
+2023-03-12 19:58:55,285[agent.cmstart]123Unknown error
+2023-03-12 19:58:59,285[agent.cmstart]123Unknown error
+2023-03-12 19:59:03,286[agent.cmstart]123Unknown error
+2023-03-12 19:59:07,286[agent.cmstart]123Unknown error
+2023-03-12 19:59:11,286[agent.cmstart]123Unknown error
+2023-03-12 19:59:15,287[agent.cmstart]123Unknown error
+2023-03-12 19:59:19,287[agent.cmstart]123Unknown error
+2023-03-12 19:59:23,287[agent.cmstart]123Unknown error
+2023-03-12 19:59:27,287[agent.cmstart]123Unknown error
+2023-03-12 19:59:31,288[agent.cmstart]123Unknown error
+2023-03-12 19:59:35,288[agent.cmstart]123Unknown error
+2023-03-12 19:59:39,289[agent.cmstart]123Unknown error
+2023-03-12 19:59:43,289[agent.cmstart]123Unknown error
+2023-03-12 19:59:47,289[agent.cmstart]123Unknown error
+2023-03-12 19:59:51,290[agent.cmstart]123Unknown error
+2023-03-12 19:59:55,291[agent.cmstart]123Unknown error
+2023-03-12 19:59:59,291[agent.cmstart]123Unknown error
+2023-03-12 20:00:03,291[agent.cmstart]123Unknown error
+2023-03-12 20:00:07,292[agent.cmstart]123Unknown error
+2023-03-12 20:00:11,292[agent.cmstart]123Unknown error
+2023-03-12 20:00:15,293[agent.cmstart]123Unknown error
+2023-03-12 20:00:19,293[agent.cmstart]123Unknown error
+2023-03-12 20:00:23,293[agent.cmstart]123Unknown error
+2023-03-12 20:00:27,294[agent.cmstart]123Unknown error
+2023-03-12 20:00:31,295[agent.cmstart]123Unknown error
+2023-03-12 20:00:35,295[agent.cmstart]123Unknown error
+2023-03-12 20:00:39,295[agent.cmstart]123Unknown error
+2023-03-12 20:00:43,296[agent.cmstart]123Unknown error
+2023-03-12 20:00:47,297[agent.cmstart]123Unknown error
+2023-03-12 20:00:51,298[agent.cmstart]123Unknown error
+2023-03-12 20:00:55,298[agent.cmstart]123Unknown error
+2023-03-12 20:00:59,298[agent.cmstart]123Unknown error
+2023-03-12 20:01:03,298[agent.cmstart]123Unknown error
+2023-03-12 20:01:07,298[agent.cmstart]123Unknown error
+2023-03-12 20:01:11,298[agent.cmstart]123Unknown error
+2023-03-12 20:01:15,299[agent.cmstart]123Unknown error
+2023-03-12 20:01:19,300[agent.cmstart]123Unknown error
+2023-03-12 20:01:23,302[agent.cmstart]123Unknown error
+2023-03-12 20:01:27,302[agent.cmstart]123Unknown error
+2023-03-12 20:01:31,302[agent.cmstart]123Unknown error
+2023-03-12 20:01:35,302[agent.cmstart]123Unknown error
+2023-03-12 20:01:39,303[agent.cmstart]123Unknown error
+2023-03-12 20:01:43,303[agent.cmstart]123Unknown error
+2023-03-12 20:01:47,303[agent.cmstart]123Unknown error
+2023-03-12 20:01:51,304[agent.cmstart]123Unknown error
+2023-03-12 20:01:55,305[agent.cmstart]123Unknown error
+2023-03-12 20:01:59,305[agent.cmstart]123Unknown error
+2023-03-12 20:02:03,305[agent.cmstart]123Unknown error
+2023-03-12 20:02:07,306[agent.cmstart]123Unknown error
+2023-03-12 20:02:11,306[agent.cmstart]123Unknown error
+2023-03-12 20:02:15,307[agent.cmstart]123Unknown error
+2023-03-12 20:02:19,307[agent.cmstart]123Unknown error
+2023-03-12 20:02:23,308[agent.cmstart]123Unknown error
+2023-03-12 20:02:27,308[agent.cmstart]123Unknown error
+2023-03-12 20:02:31,309[agent.cmstart]123Unknown error
+2023-03-12 20:02:35,310[agent.cmstart]123Unknown error
+2023-03-12 20:02:39,311[agent.cmstart]123Unknown error
+2023-03-12 20:02:43,312[agent.cmstart]123Unknown error
+2023-03-12 20:02:47,312[agent.cmstart]123Unknown error
+2023-03-12 20:02:51,312[agent.cmstart]123Unknown error
+2023-03-12 20:02:55,312[agent.cmstart]123Unknown error
+2023-03-12 20:02:59,312[agent.cmstart]123Unknown error
+2023-03-12 20:03:03,313[agent.cmstart]123Unknown error
+2023-03-12 20:03:07,314[agent.cmstart]123Unknown error
+2023-03-12 20:03:11,315[agent.cmstart]123Unknown error
+2023-03-12 20:03:15,316[agent.cmstart]123Unknown error
+2023-03-12 20:03:19,316[agent.cmstart]123Unknown error
+2023-03-12 20:03:23,316[agent.cmstart]123Unknown error
+2023-03-12 20:03:27,317[agent.cmstart]123Unknown error
+2023-03-12 20:03:31,317[agent.cmstart]123Unknown error
+2023-03-12 20:03:35,318[agent.cmstart]123Unknown error
+2023-03-12 20:03:39,319[agent.cmstart]123Unknown error
+2023-03-12 20:03:43,319[agent.cmstart]123Unknown error
+2023-03-12 20:03:47,319[agent.cmstart]123Unknown error
+2023-03-12 20:03:51,320[agent.cmstart]123Unknown error
+2023-03-12 20:03:55,322[agent.cmstart]123Unknown error
+2023-03-12 20:03:59,323[agent.cmstart]123Unknown error
+2023-03-12 20:04:03,323[agent.cmstart]123Unknown error
+2023-03-12 20:04:07,324[agent.cmstart]123Unknown error
+2023-03-12 20:04:11,324[agent.cmstart]123Unknown error
+2023-03-12 20:04:15,325[agent.cmstart]123Unknown error
+2023-03-12 20:04:19,326[agent.cmstart]123Unknown error
+2023-03-12 20:04:23,326[agent.cmstart]123Unknown error
+2023-03-12 20:04:27,326[agent.cmstart]123Unknown error
+2023-03-12 20:04:31,326[agent.cmstart]123Unknown error
+2023-03-12 20:04:35,326[agent.cmstart]123Unknown error
+2023-03-12 20:04:39,327[agent.cmstart]123Unknown error
+2023-03-12 20:04:43,328[agent.cmstart]123Unknown error
+2023-03-12 20:04:47,329[agent.cmstart]123Unknown error
+2023-03-12 20:04:51,330[agent.cmstart]123Unknown error
+2023-03-12 20:04:55,330[agent.cmstart]123Unknown error
+2023-03-12 20:04:59,331[agent.cmstart]123Unknown error
+2023-03-12 20:05:03,331[agent.cmstart]123Unknown error
+2023-03-12 20:05:07,331[agent.cmstart]123Unknown error
+2023-03-12 20:05:11,331[agent.cmstart]123Unknown error
+2023-03-12 20:05:15,332[agent.cmstart]123Unknown error
+2023-03-12 20:05:19,332[agent.cmstart]123Unknown error
+2023-03-12 20:05:23,332[agent.cmstart]123Unknown error
+2023-03-12 20:05:27,333[agent.cmstart]123Unknown error
+2023-03-12 20:05:31,333[agent.cmstart]123Unknown error
+2023-03-12 20:05:35,334[agent.cmstart]123Unknown error
+2023-03-12 20:05:39,334[agent.cmstart]123Unknown error
+2023-03-12 20:05:43,334[agent.cmstart]123Unknown error
+2023-03-12 20:05:47,334[agent.cmstart]123Unknown error
+2023-03-12 20:05:51,334[agent.cmstart]123Unknown error
+2023-03-12 20:05:55,335[agent.cmstart]123Unknown error
+2023-03-12 20:05:59,335[agent.cmstart]123Unknown error
+2023-03-12 20:06:03,336[agent.cmstart]123Unknown error
+2023-03-12 20:06:07,336[agent.cmstart]123Unknown error
+2023-03-12 20:06:11,337[agent.cmstart]123Unknown error
+2023-03-12 20:06:15,337[agent.cmstart]123Unknown error
+2023-03-12 20:06:19,337[agent.cmstart]123Unknown error
+2023-03-12 20:06:23,338[agent.cmstart]123Unknown error
+2023-03-12 20:06:27,338[agent.cmstart]123Unknown error
+2023-03-12 20:06:31,339[agent.cmstart]123Unknown error
+2023-03-12 20:06:35,338[agent.cmstart]123Unknown error
+2023-03-12 20:06:39,339[agent.cmstart]123Unknown error
+2023-03-12 20:06:43,339[agent.cmstart]123Unknown error
+2023-03-12 20:06:47,340[agent.cmstart]123Unknown error
+2023-03-12 20:06:51,340[agent.cmstart]123Unknown error
+2023-03-12 20:06:55,341[agent.cmstart]123Unknown error
+2023-03-12 20:06:59,341[agent.cmstart]123Unknown error
+2023-03-12 20:07:03,341[agent.cmstart]123Unknown error
+2023-03-12 20:07:07,341[agent.cmstart]123Unknown error
+2023-03-12 20:07:11,342[agent.cmstart]123Unknown error
+2023-03-12 20:07:15,343[agent.cmstart]123Unknown error
+2023-03-12 20:07:19,343[agent.cmstart]123Unknown error
+2023-03-12 20:07:23,343[agent.cmstart]123Unknown error
+2023-03-12 20:07:27,346[agent.cmstart]123Unknown error
+2023-03-12 20:07:31,347[agent.cmstart]123Unknown error
+2023-03-12 20:07:35,347[agent.cmstart]123Unknown error
+2023-03-12 20:07:39,348[agent.cmstart]123Unknown error
+2023-03-12 20:07:43,348[agent.cmstart]123Unknown error
+2023-03-12 20:07:47,348[agent.cmstart]123Unknown error
+2023-03-12 20:07:51,349[agent.cmstart]123Unknown error
+2023-03-12 20:07:55,349[agent.cmstart]123Unknown error
+2023-03-12 20:07:59,350[agent.cmstart]123Unknown error
+2023-03-12 20:08:03,350[agent.cmstart]123Unknown error
+2023-03-12 20:08:07,350[agent.cmstart]123Unknown error
+2023-03-12 20:08:11,351[agent.cmstart]123Unknown error
+2023-03-12 20:08:15,351[agent.cmstart]123Unknown error
+2023-03-12 20:08:19,352[agent.cmstart]123Unknown error
+2023-03-12 20:08:23,352[agent.cmstart]123Unknown error
+2023-03-12 20:08:27,352[agent.cmstart]123Unknown error
+2023-03-12 20:08:31,353[agent.cmstart]123Unknown error
+2023-03-12 20:08:35,354[agent.cmstart]123Unknown error
+2023-03-12 20:08:39,355[agent.cmstart]123Unknown error
+2023-03-12 20:08:43,356[agent.cmstart]123Unknown error
+2023-03-12 20:08:47,356[agent.cmstart]123Unknown error
+2023-03-12 20:08:51,357[agent.cmstart]123Unknown error
+2023-03-12 20:08:55,357[agent.cmstart]123Unknown error
+2023-03-12 20:08:59,357[agent.cmstart]123Unknown error
+2023-03-12 20:09:03,357[agent.cmstart]123Unknown error
+2023-03-12 20:09:07,357[agent.cmstart]123Unknown error
+2023-03-12 20:09:11,357[agent.cmstart]123Unknown error
+2023-03-12 20:09:15,357[agent.cmstart]123Unknown error
+2023-03-12 20:09:19,358[agent.cmstart]123Unknown error
+2023-03-12 20:09:23,358[agent.cmstart]123Unknown error
+2023-03-12 20:09:27,359[agent.cmstart]123Unknown error
+2023-03-12 20:09:31,360[agent.cmstart]123Unknown error
+2023-03-12 20:09:35,361[agent.cmstart]123Unknown error
+2023-03-12 20:09:39,361[agent.cmstart]123Unknown error
+2023-03-12 20:09:43,362[agent.cmstart]123Unknown error
+2023-03-12 20:09:47,363[agent.cmstart]123Unknown error
+2023-03-12 20:09:48,503[agent.cmstart]123Traceback (most recent call last):
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\cm.py", line 19, in handle
+    self.storage.reg_hb(msg['payload']['id'],msg['payload']['hostname'],msg['payload']['ip'])
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\storage.py", line 26, in reg_hb
+    self.agents[id]=Agent(id,hostname,ip)
+TypeError: __init__() takes 1 positional argument but 4 were given
+
+2023-03-12 20:09:52,504[agent.cmstart]123Unknown error
+2023-03-12 20:09:56,504[agent.cmstart]123Unknown error
+2023-03-12 20:10:00,505[agent.cmstart]123Unknown error
+2023-03-12 20:10:04,506[agent.cmstart]123Unknown error
+2023-03-12 20:10:08,506[agent.cmstart]123Unknown error
+2023-03-12 20:10:12,508[agent.cmstart]123Unknown error
+2023-03-12 20:10:16,508[agent.cmstart]123Unknown error
+2023-03-12 20:10:20,509[agent.cmstart]123Unknown error
+2023-03-12 20:10:24,510[agent.cmstart]123Unknown error
+2023-03-12 20:10:28,511[agent.cmstart]123Unknown error
+2023-03-12 20:10:32,511[agent.cmstart]123Unknown error
+2023-03-12 20:10:36,512[agent.cmstart]123Unknown error
+2023-03-12 20:10:40,512[agent.cmstart]123Unknown error
+2023-03-12 20:10:44,513[agent.cmstart]123Unknown error
+2023-03-12 20:10:48,513[agent.cmstart]123Unknown error
+2023-03-12 20:10:52,514[agent.cmstart]123Unknown error
+2023-03-12 20:10:56,514[agent.cmstart]123Unknown error
+2023-03-12 20:11:00,515[agent.cmstart]123Unknown error
+2023-03-12 20:11:04,515[agent.cmstart]123Unknown error
+2023-03-12 20:11:08,516[agent.cmstart]123Unknown error
+2023-03-12 20:11:12,517[agent.cmstart]123Unknown error
+2023-03-12 20:11:16,517[agent.cmstart]123Unknown error
+2023-03-12 20:11:20,518[agent.cmstart]123Unknown error
+2023-03-12 20:11:24,518[agent.cmstart]123Unknown error
+2023-03-12 20:11:28,519[agent.cmstart]123Unknown error
+2023-03-12 20:11:32,399[agent.cmstart]ack {'type': 'register', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:11:34,424[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:11:36,454[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:11:38,480[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:11:40,505[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:11:42,529[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:11:59,552[agent.cmstart]123Lost remote after 10s heartbeat
+2023-03-12 20:12:03,554[agent.cmstart]123Unknown error
+2023-03-12 20:12:07,555[agent.cmstart]123Unknown error
+2023-03-12 20:12:11,555[agent.cmstart]123Unknown error
+2023-03-12 20:12:15,556[agent.cmstart]123Unknown error
+2023-03-12 20:12:19,557[agent.cmstart]123Unknown error
+2023-03-12 20:12:23,557[agent.cmstart]123Unknown error
+2023-03-12 20:12:27,558[agent.cmstart]123Unknown error
+2023-03-12 20:12:31,558[agent.cmstart]123Unknown error
+2023-03-12 20:12:35,558[agent.cmstart]123Unknown error
+2023-03-12 20:12:39,559[agent.cmstart]123Unknown error
+2023-03-12 20:12:43,560[agent.cmstart]123Unknown error
+2023-03-12 20:12:47,560[agent.cmstart]123Unknown error
+2023-03-12 20:12:51,561[agent.cmstart]123Unknown error
+2023-03-12 20:12:55,561[agent.cmstart]123Unknown error
+2023-03-12 20:12:59,562[agent.cmstart]123Unknown error
+2023-03-12 20:13:03,562[agent.cmstart]123Unknown error
+2023-03-12 20:13:07,563[agent.cmstart]123Unknown error
+2023-03-12 20:13:11,563[agent.cmstart]123Unknown error
+2023-03-12 20:13:15,564[agent.cmstart]123Unknown error
+2023-03-12 20:13:16,755[agent.cmstart]123Traceback (most recent call last):
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\cm.py", line 19, in handle
+    self.storage.reg_hb(msg['payload']['id'],msg['payload']['hostname'],msg['payload']['ip'])
+TypeError: reg_hb() takes 1 positional argument but 4 were given
+
+2023-03-12 20:13:20,756[agent.cmstart]123Unknown error
+2023-03-12 20:13:24,757[agent.cmstart]123Unknown error
+2023-03-12 20:13:28,757[agent.cmstart]123Unknown error
+2023-03-12 20:13:32,757[agent.cmstart]123Unknown error
+2023-03-12 20:13:36,757[agent.cmstart]123Unknown error
+2023-03-12 20:13:40,757[agent.cmstart]123Unknown error
+2023-03-12 20:13:44,757[agent.cmstart]123Unknown error
+2023-03-12 20:13:48,758[agent.cmstart]123Unknown error
+2023-03-12 20:13:52,759[agent.cmstart]123Unknown error
+2023-03-12 20:13:56,759[agent.cmstart]123Unknown error
+2023-03-12 20:14:00,759[agent.cmstart]123Unknown error
+2023-03-12 20:14:04,760[agent.cmstart]123Unknown error
+2023-03-12 20:14:08,761[agent.cmstart]123Unknown error
+2023-03-12 20:14:12,761[agent.cmstart]123Unknown error
+2023-03-12 20:14:16,761[agent.cmstart]123Unknown error
+2023-03-12 20:14:20,761[agent.cmstart]123Unknown error
+2023-03-12 20:14:24,762[agent.cmstart]123Unknown error
+2023-03-12 20:14:28,763[agent.cmstart]123Unknown error
+2023-03-12 20:14:32,763[agent.cmstart]123Unknown error
+2023-03-12 20:14:36,763[agent.cmstart]123Unknown error
+2023-03-12 20:14:40,763[agent.cmstart]123Unknown error
+2023-03-12 20:14:44,763[agent.cmstart]123Unknown error
+2023-03-12 20:14:48,764[agent.cmstart]123Unknown error
+2023-03-12 20:14:52,764[agent.cmstart]123Unknown error
+2023-03-12 20:14:56,765[agent.cmstart]123Unknown error
+2023-03-12 20:15:00,765[agent.cmstart]123Unknown error
+2023-03-12 20:15:04,766[agent.cmstart]123Unknown error
+2023-03-12 20:15:08,767[agent.cmstart]123Unknown error
+2023-03-12 20:15:12,767[agent.cmstart]123Unknown error
+2023-03-12 20:15:16,767[agent.cmstart]123Unknown error
+2023-03-12 20:15:20,767[agent.cmstart]123Unknown error
+2023-03-12 20:15:24,767[agent.cmstart]123Unknown error
+2023-03-12 20:15:28,767[agent.cmstart]123Unknown error
+2023-03-12 20:15:32,768[agent.cmstart]123Unknown error
+2023-03-12 20:15:36,769[agent.cmstart]123Unknown error
+2023-03-12 20:15:40,770[agent.cmstart]123Unknown error
+2023-03-12 20:15:44,771[agent.cmstart]123Unknown error
+2023-03-12 20:15:48,771[agent.cmstart]123Unknown error
+2023-03-12 20:15:52,772[agent.cmstart]123Unknown error
+2023-03-12 20:15:56,772[agent.cmstart]123Unknown error
+2023-03-12 20:16:00,773[agent.cmstart]123Unknown error
+2023-03-12 20:16:04,773[agent.cmstart]123Unknown error
+2023-03-12 20:16:08,773[agent.cmstart]123Unknown error
+2023-03-12 20:16:12,774[agent.cmstart]123Unknown error
+2023-03-12 20:16:16,775[agent.cmstart]123Unknown error
+2023-03-12 20:16:20,775[agent.cmstart]123Unknown error
+2023-03-12 20:16:24,776[agent.cmstart]123Unknown error
+2023-03-12 20:16:28,777[agent.cmstart]123Unknown error
+2023-03-12 20:16:32,777[agent.cmstart]123Unknown error
+2023-03-12 20:16:36,778[agent.cmstart]123Unknown error
+2023-03-12 20:16:40,779[agent.cmstart]123Unknown error
+2023-03-12 20:16:44,780[agent.cmstart]123Unknown error
+2023-03-12 20:16:48,780[agent.cmstart]123Unknown error
+2023-03-12 20:16:52,781[agent.cmstart]123Unknown error
+2023-03-12 20:16:56,781[agent.cmstart]123Unknown error
+2023-03-12 20:17:00,782[agent.cmstart]123Unknown error
+2023-03-12 20:17:04,782[agent.cmstart]123Unknown error
+2023-03-12 20:17:08,782[agent.cmstart]123Unknown error
+2023-03-12 20:17:12,783[agent.cmstart]123Unknown error
+2023-03-12 20:17:16,784[agent.cmstart]123Unknown error
+2023-03-12 20:17:20,785[agent.cmstart]123Unknown error
+2023-03-12 20:17:24,785[agent.cmstart]123Unknown error
+2023-03-12 20:17:28,785[agent.cmstart]123Unknown error
+2023-03-12 20:17:32,786[agent.cmstart]123Unknown error
+2023-03-12 20:17:36,787[agent.cmstart]123Unknown error
+2023-03-12 20:17:40,787[agent.cmstart]123Unknown error
+2023-03-12 20:17:44,787[agent.cmstart]123Unknown error
+2023-03-12 20:17:48,788[agent.cmstart]123Unknown error
+2023-03-12 20:17:52,788[agent.cmstart]123Unknown error
+2023-03-12 20:17:56,790[agent.cmstart]123Unknown error
+2023-03-12 20:18:00,790[agent.cmstart]123Unknown error
+2023-03-12 20:18:04,790[agent.cmstart]123Unknown error
+2023-03-12 20:18:08,791[agent.cmstart]123Unknown error
+2023-03-12 20:18:12,792[agent.cmstart]123Unknown error
+2023-03-12 20:18:16,793[agent.cmstart]123Unknown error
+2023-03-12 20:18:20,793[agent.cmstart]123Unknown error
+2023-03-12 20:18:24,751[agent.cmstart]123Unknown error
+2023-03-12 20:18:28,751[agent.cmstart]123Unknown error
+2023-03-12 20:18:32,751[agent.cmstart]123Unknown error
+2023-03-12 20:18:36,752[agent.cmstart]123Unknown error
+2023-03-12 20:18:40,753[agent.cmstart]123Unknown error
+2023-03-12 20:18:44,753[agent.cmstart]123Unknown error
+2023-03-12 20:18:48,753[agent.cmstart]123Unknown error
+2023-03-12 20:18:52,753[agent.cmstart]123Unknown error
+2023-03-12 20:18:56,754[agent.cmstart]123Unknown error
+2023-03-12 20:19:00,754[agent.cmstart]123Unknown error
+2023-03-12 20:19:04,760[agent.cmstart]ack {'type': 'register', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:19:06,786[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:19:08,811[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:19:10,836[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:19:12,860[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:19:14,886[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:21:24,171[agent.cmstart]123Traceback (most recent call last):
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\cm.py", line 18, in handle
+    self.storage.reg_hb(**msg['payload'])
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\storage.py", line 26, in reg_hb
+    self.agents[id]=id,hostname,ip
+NameError: name 'hostname' is not defined
+
+2023-03-12 20:21:28,174[agent.cmstart]123Unknown error
+2023-03-12 20:21:32,174[agent.cmstart]123Unknown error
+2023-03-12 20:21:36,175[agent.cmstart]123Unknown error
+2023-03-12 20:21:40,175[agent.cmstart]123Unknown error
+2023-03-12 20:21:44,175[agent.cmstart]123Unknown error
+2023-03-12 20:21:48,176[agent.cmstart]123Unknown error
+2023-03-12 20:21:52,177[agent.cmstart]123Unknown error
+2023-03-12 20:21:56,177[agent.cmstart]123Unknown error
+2023-03-12 20:22:00,177[agent.cmstart]123Unknown error
+2023-03-12 20:22:04,178[agent.cmstart]123Unknown error
+2023-03-12 20:22:08,178[agent.cmstart]123Unknown error
+2023-03-12 20:22:12,178[agent.cmstart]123Unknown error
+2023-03-12 20:22:16,179[agent.cmstart]123Unknown error
+2023-03-12 20:22:20,180[agent.cmstart]123Unknown error
+2023-03-12 20:22:24,180[agent.cmstart]123Unknown error
+2023-03-12 20:22:28,180[agent.cmstart]123Unknown error
+2023-03-12 20:22:32,180[agent.cmstart]123Unknown error
+2023-03-12 20:22:36,181[agent.cmstart]123Unknown error
+2023-03-12 20:22:40,181[agent.cmstart]123Unknown error
+2023-03-12 20:22:44,181[agent.cmstart]123Unknown error
+2023-03-12 20:22:48,182[agent.cmstart]123Unknown error
+2023-03-12 20:22:52,182[agent.cmstart]123Unknown error
+2023-03-12 20:22:56,183[agent.cmstart]123Unknown error
+2023-03-12 20:23:00,183[agent.cmstart]123Unknown error
+2023-03-12 20:23:04,184[agent.cmstart]123Unknown error
+2023-03-12 20:23:08,184[agent.cmstart]123Unknown error
+2023-03-12 20:23:12,185[agent.cmstart]123Unknown error
+2023-03-12 20:23:16,185[agent.cmstart]123Unknown error
+2023-03-12 20:23:20,186[agent.cmstart]123Unknown error
+2023-03-12 20:23:24,186[agent.cmstart]123Unknown error
+2023-03-12 20:23:28,187[agent.cmstart]123Unknown error
+2023-03-12 20:23:32,187[agent.cmstart]123Unknown error
+2023-03-12 20:23:36,187[agent.cmstart]123Unknown error
+2023-03-12 20:23:40,187[agent.cmstart]123Unknown error
+2023-03-12 20:23:44,188[agent.cmstart]123Unknown error
+2023-03-12 20:23:48,188[agent.cmstart]123Unknown error
+2023-03-12 20:23:52,189[agent.cmstart]123Unknown error
+2023-03-12 20:23:56,190[agent.cmstart]123Unknown error
+2023-03-12 20:24:00,191[agent.cmstart]123Unknown error
+2023-03-12 20:24:04,191[agent.cmstart]123Unknown error
+2023-03-12 20:24:08,192[agent.cmstart]123Unknown error
+2023-03-12 20:24:12,193[agent.cmstart]123Unknown error
+2023-03-12 20:24:16,193[agent.cmstart]123Unknown error
+2023-03-12 20:24:20,194[agent.cmstart]123Unknown error
+2023-03-12 20:24:24,194[agent.cmstart]123Unknown error
+2023-03-12 20:24:28,195[agent.cmstart]123Unknown error
+2023-03-12 20:24:32,195[agent.cmstart]123Unknown error
+2023-03-12 20:24:36,196[agent.cmstart]123Unknown error
+2023-03-12 20:24:40,196[agent.cmstart]123Unknown error
+2023-03-12 20:24:44,197[agent.cmstart]123Unknown error
+2023-03-12 20:24:48,198[agent.cmstart]123Unknown error
+2023-03-12 20:24:52,199[agent.cmstart]123Unknown error
+2023-03-12 20:24:56,199[agent.cmstart]123Unknown error
+2023-03-12 20:25:00,200[agent.cmstart]123Unknown error
+2023-03-12 20:25:04,200[agent.cmstart]123Unknown error
+2023-03-12 20:25:08,201[agent.cmstart]123Unknown error
+2023-03-12 20:25:12,202[agent.cmstart]123Unknown error
+2023-03-12 20:25:16,202[agent.cmstart]123Unknown error
+2023-03-12 20:25:20,202[agent.cmstart]123Unknown error
+2023-03-12 20:25:24,203[agent.cmstart]123Unknown error
+2023-03-12 20:25:28,203[agent.cmstart]123Unknown error
+2023-03-12 20:25:32,204[agent.cmstart]123Unknown error
+2023-03-12 20:25:36,205[agent.cmstart]123Unknown error
+2023-03-12 20:25:40,205[agent.cmstart]123Unknown error
+2023-03-12 20:25:44,206[agent.cmstart]123Unknown error
+2023-03-12 20:25:48,206[agent.cmstart]123Unknown error
+2023-03-12 20:25:52,207[agent.cmstart]123Unknown error
+2023-03-12 20:25:56,208[agent.cmstart]123Unknown error
+2023-03-12 20:26:00,208[agent.cmstart]123Unknown error
+2023-03-12 20:26:04,209[agent.cmstart]123Unknown error
+2023-03-12 20:26:08,209[agent.cmstart]123Unknown error
+2023-03-12 20:26:12,209[agent.cmstart]123Unknown error
+2023-03-12 20:26:16,210[agent.cmstart]123Unknown error
+2023-03-12 20:26:20,211[agent.cmstart]123Unknown error
+2023-03-12 20:26:24,212[agent.cmstart]123Unknown error
+2023-03-12 20:26:28,212[agent.cmstart]123Unknown error
+2023-03-12 20:26:32,213[agent.cmstart]123Unknown error
+2023-03-12 20:26:36,213[agent.cmstart]123Unknown error
+2023-03-12 20:26:40,213[agent.cmstart]123Unknown error
+2023-03-12 20:26:44,213[agent.cmstart]123Unknown error
+2023-03-12 20:26:48,215[agent.cmstart]123Unknown error
+2023-03-12 20:26:52,216[agent.cmstart]123Unknown error
+2023-03-12 20:26:56,217[agent.cmstart]123Unknown error
+2023-03-12 20:27:00,217[agent.cmstart]123Unknown error
+2023-03-12 20:27:04,217[agent.cmstart]123Unknown error
+2023-03-12 20:27:08,218[agent.cmstart]123Unknown error
+2023-03-12 20:27:12,219[agent.cmstart]123Unknown error
+2023-03-12 20:27:16,219[agent.cmstart]123Unknown error
+2023-03-12 20:27:20,220[agent.cmstart]123Unknown error
+2023-03-12 20:27:24,221[agent.cmstart]123Unknown error
+2023-03-12 20:27:28,222[agent.cmstart]123Unknown error
+2023-03-12 20:27:32,223[agent.cmstart]123Unknown error
+2023-03-12 20:27:36,223[agent.cmstart]123Unknown error
+2023-03-12 20:27:40,224[agent.cmstart]123Unknown error
+2023-03-12 20:27:44,224[agent.cmstart]123Unknown error
+2023-03-12 20:27:48,224[agent.cmstart]123Unknown error
+2023-03-12 20:27:52,224[agent.cmstart]123Unknown error
+2023-03-12 20:27:56,224[agent.cmstart]123Unknown error
+2023-03-12 20:28:00,224[agent.cmstart]123Unknown error
+2023-03-12 20:28:04,224[agent.cmstart]123Unknown error
+2023-03-12 20:28:08,224[agent.cmstart]123Unknown error
+2023-03-12 20:28:12,225[agent.cmstart]123Unknown error
+2023-03-12 20:28:16,225[agent.cmstart]123Unknown error
+2023-03-12 20:28:20,226[agent.cmstart]123Unknown error
+2023-03-12 20:28:24,226[agent.cmstart]123Unknown error
+2023-03-12 20:28:27,271[agent.cmstart]123Traceback (most recent call last):
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\zhanjia\AppData\Local\Programs\Python\Python36\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\cm.py", line 18, in handle
+    self.storage.reg_hb(**msg['payload'])
+  File "C:\Users\zhanjia\PycharmProjects\mschedule\Master\storage.py", line 26, in reg_hb
+    self.agents[id]=id,hostname,ip
+NameError: name 'hostname' is not defined
+
+2023-03-12 20:28:31,274[agent.cmstart]123Unknown error
+2023-03-12 20:28:35,274[agent.cmstart]123Unknown error
+2023-03-12 20:28:39,275[agent.cmstart]123Unknown error
+2023-03-12 20:28:43,276[agent.cmstart]123Unknown error
+2023-03-12 20:28:47,277[agent.cmstart]123Unknown error
+2023-03-12 20:28:51,277[agent.cmstart]123Unknown error
+2023-03-12 20:28:55,277[agent.cmstart]123Unknown error
+2023-03-12 20:28:59,277[agent.cmstart]123Unknown error
+2023-03-12 20:29:03,278[agent.cmstart]123Unknown error
+2023-03-12 20:29:07,278[agent.cmstart]123Unknown error
+2023-03-12 20:29:11,279[agent.cmstart]123Unknown error
+2023-03-12 20:29:15,280[agent.cmstart]123Unknown error
+2023-03-12 20:29:19,280[agent.cmstart]123Unknown error
+2023-03-12 20:29:23,282[agent.cmstart]123Unknown error
+2023-03-12 20:29:27,282[agent.cmstart]123Unknown error
+2023-03-12 20:29:31,283[agent.cmstart]123Unknown error
+2023-03-12 20:29:35,283[agent.cmstart]123Unknown error
+2023-03-12 20:29:39,283[agent.cmstart]123Unknown error
+2023-03-12 20:29:43,284[agent.cmstart]123Unknown error
+2023-03-12 20:29:47,284[agent.cmstart]123Unknown error
+2023-03-12 20:29:51,285[agent.cmstart]123Unknown error
+2023-03-12 20:29:55,286[agent.cmstart]123Unknown error
+2023-03-12 20:29:59,287[agent.cmstart]123Unknown error
+2023-03-12 20:30:03,288[agent.cmstart]123Unknown error
+2023-03-12 20:30:07,288[agent.cmstart]123Unknown error
+2023-03-12 20:30:11,289[agent.cmstart]123Unknown error
+2023-03-12 20:30:15,289[agent.cmstart]123Unknown error
+2023-03-12 20:30:19,290[agent.cmstart]123Unknown error
+2023-03-12 20:30:23,290[agent.cmstart]123Unknown error
+2023-03-12 20:30:27,291[agent.cmstart]123Unknown error
+2023-03-12 20:30:31,292[agent.cmstart]123Unknown error
+2023-03-12 20:30:35,292[agent.cmstart]123Unknown error
+2023-03-12 20:30:39,293[agent.cmstart]123Unknown error
+2023-03-12 20:30:43,293[agent.cmstart]123Unknown error
+2023-03-12 20:30:47,294[agent.cmstart]123Unknown error
+2023-03-12 20:30:51,295[agent.cmstart]123Unknown error
+2023-03-12 20:30:55,295[agent.cmstart]123Unknown error
+2023-03-12 20:30:59,296[agent.cmstart]123Unknown error
+2023-03-12 20:31:03,297[agent.cmstart]123Unknown error
+2023-03-12 20:31:07,297[agent.cmstart]123Unknown error
+2023-03-12 20:31:11,298[agent.cmstart]123Unknown error
+2023-03-12 20:31:15,298[agent.cmstart]123Unknown error
+2023-03-12 20:31:19,299[agent.cmstart]123Unknown error
+2023-03-12 20:31:23,299[agent.cmstart]123Unknown error
+2023-03-12 20:31:27,300[agent.cmstart]123Unknown error
+2023-03-12 20:31:31,301[agent.cmstart]123Unknown error
+2023-03-12 20:31:35,302[agent.cmstart]123Unknown error
+2023-03-12 20:31:39,303[agent.cmstart]123Unknown error
+2023-03-12 20:31:43,304[agent.cmstart]123Unknown error
+2023-03-12 20:31:47,304[agent.cmstart]123Unknown error
+2023-03-12 20:31:51,305[agent.cmstart]123Unknown error
+2023-03-12 20:31:55,305[agent.cmstart]123Unknown error
+2023-03-12 20:31:59,306[agent.cmstart]123Unknown error
+2023-03-12 20:32:03,306[agent.cmstart]123Unknown error
+2023-03-12 20:32:07,307[agent.cmstart]123Unknown error
+2023-03-12 20:32:11,307[agent.cmstart]123Unknown error
+2023-03-12 20:32:15,307[agent.cmstart]123Unknown error
+2023-03-12 20:32:19,308[agent.cmstart]123Unknown error
+2023-03-12 20:32:23,308[agent.cmstart]123Unknown error
+2023-03-12 20:32:27,308[agent.cmstart]123Unknown error
+2023-03-12 20:32:31,309[agent.cmstart]123Unknown error
+2023-03-12 20:32:35,309[agent.cmstart]123Unknown error
+2023-03-12 20:32:39,310[agent.cmstart]123Unknown error
+2023-03-12 20:32:43,310[agent.cmstart]123Unknown error
+2023-03-12 20:32:47,310[agent.cmstart]123Unknown error
+2023-03-12 20:32:51,311[agent.cmstart]123Unknown error
+2023-03-12 20:32:55,311[agent.cmstart]123Unknown error
+2023-03-12 20:32:59,311[agent.cmstart]123Unknown error
+2023-03-12 20:33:03,311[agent.cmstart]123Unknown error
+2023-03-12 20:33:07,312[agent.cmstart]123Unknown error
+2023-03-12 20:33:11,313[agent.cmstart]123Unknown error
+2023-03-12 20:33:15,314[agent.cmstart]123Unknown error
+2023-03-12 20:33:19,314[agent.cmstart]123Unknown error
+2023-03-12 20:33:23,314[agent.cmstart]123Unknown error
+2023-03-12 20:33:27,315[agent.cmstart]123Unknown error
+2023-03-12 20:33:31,315[agent.cmstart]123Unknown error
+2023-03-12 20:33:35,316[agent.cmstart]123Unknown error
+2023-03-12 20:33:39,316[agent.cmstart]123Unknown error
+2023-03-12 20:33:43,317[agent.cmstart]123Unknown error
+2023-03-12 20:33:47,320[agent.cmstart]123Unknown error
+2023-03-12 20:33:51,321[agent.cmstart]123Unknown error
+2023-03-12 20:33:55,321[agent.cmstart]123Unknown error
+2023-03-12 20:33:59,322[agent.cmstart]123Unknown error
+2023-03-12 20:34:03,322[agent.cmstart]123Unknown error
+2023-03-12 20:34:07,322[agent.cmstart]123Unknown error
+2023-03-12 20:34:11,322[agent.cmstart]123Unknown error
+2023-03-12 20:34:15,322[agent.cmstart]123Unknown error
+2023-03-12 20:34:19,323[agent.cmstart]123Unknown error
+2023-03-12 20:34:23,324[agent.cmstart]123Unknown error
+2023-03-12 20:34:27,324[agent.cmstart]123Unknown error
+2023-03-12 20:34:31,325[agent.cmstart]123Unknown error
+2023-03-12 20:34:35,325[agent.cmstart]123Unknown error
+2023-03-12 20:34:39,326[agent.cmstart]123Unknown error
+2023-03-12 20:34:43,326[agent.cmstart]123Unknown error
+2023-03-12 20:34:47,326[agent.cmstart]123Unknown error
+2023-03-12 20:34:51,326[agent.cmstart]123Unknown error
+2023-03-12 20:34:55,327[agent.cmstart]123Unknown error
+2023-03-12 20:34:59,328[agent.cmstart]123Unknown error
+2023-03-12 20:35:03,328[agent.cmstart]123Unknown error
+2023-03-12 20:35:07,328[agent.cmstart]123Unknown error
+2023-03-12 20:35:11,329[agent.cmstart]123Unknown error
+2023-03-12 20:35:15,329[agent.cmstart]123Unknown error
+2023-03-12 20:35:19,330[agent.cmstart]123Unknown error
+2023-03-12 20:35:23,331[agent.cmstart]123Unknown error
+2023-03-12 20:35:27,331[agent.cmstart]123Unknown error
+2023-03-12 20:35:31,332[agent.cmstart]123Unknown error
+2023-03-12 20:35:35,332[agent.cmstart]123Unknown error
+2023-03-12 20:35:39,332[agent.cmstart]123Unknown error
+2023-03-12 20:35:43,333[agent.cmstart]123Unknown error
+2023-03-12 20:35:47,333[agent.cmstart]123Unknown error
+2023-03-12 20:35:51,333[agent.cmstart]123Unknown error
+2023-03-12 20:35:55,334[agent.cmstart]123Unknown error
+2023-03-12 20:35:59,335[agent.cmstart]123Unknown error
+2023-03-12 20:36:03,336[agent.cmstart]123Unknown error
+2023-03-12 20:36:07,336[agent.cmstart]123Unknown error
+2023-03-12 20:36:11,337[agent.cmstart]123Unknown error
+2023-03-12 20:36:15,337[agent.cmstart]123Unknown error
+2023-03-12 20:36:19,338[agent.cmstart]123Unknown error
+2023-03-12 20:36:23,339[agent.cmstart]123Unknown error
+2023-03-12 20:36:27,339[agent.cmstart]123Unknown error
+2023-03-12 20:36:31,340[agent.cmstart]123Unknown error
+2023-03-12 20:36:35,345[agent.cmstart]123Unknown error
+2023-03-12 20:36:39,345[agent.cmstart]123Unknown error
+2023-03-12 20:36:43,346[agent.cmstart]123Unknown error
+2023-03-12 20:36:47,346[agent.cmstart]123Unknown error
+2023-03-12 20:36:51,346[agent.cmstart]123Unknown error
+2023-03-12 20:36:55,347[agent.cmstart]123Unknown error
+2023-03-12 20:36:59,347[agent.cmstart]123Unknown error
+2023-03-12 20:37:03,348[agent.cmstart]123Unknown error
+2023-03-12 20:37:07,348[agent.cmstart]123Unknown error
+2023-03-12 20:37:11,349[agent.cmstart]123Unknown error
+2023-03-12 20:37:15,349[agent.cmstart]123Unknown error
+2023-03-12 20:37:19,349[agent.cmstart]123Unknown error
+2023-03-12 20:37:23,349[agent.cmstart]123Unknown error
+2023-03-12 20:37:27,350[agent.cmstart]123Unknown error
+2023-03-12 20:37:31,351[agent.cmstart]123Unknown error
+2023-03-12 20:37:32,789[agent.cmstart]ack {'type': 'register', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:37:34,814[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:37:36,841[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:37:38,864[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:37:40,890[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:37:42,915[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:37:44,943[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:38:47,145[agent.cmstart]ack {'type': 'register', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:38:49,171[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:38:51,197[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:38:53,221[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}
+2023-03-12 20:38:55,246[agent.cmstart]ack {'type': 'heartbeat', 'payload': {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}}

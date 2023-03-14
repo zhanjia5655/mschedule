@@ -16,10 +16,11 @@ class ConnectionManager:
         #{'type': 'register', 'payload': {'id': '549fe1c8ebdb44d0a503a4525b7657e3', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}} <class 'dict'>
         if msg['type'] in {'register','heartbeat'}:
             self.storage.reg_hb(**msg['payload'])
-
+            print(11111,msg['payload']) #11111 {'id': '8bfce475806e469b8d64012ed1dfc1a7', 'hostname': 'zhanjia-pc', 'ip': ['200.200.200.88']}
+            # self.storage.reg_hb(msg['payload']['id'],msg['payload']['hostname'],msg['payload']['ip'])
             # self.storage.agents[msg['payload']['id']]=msg['payload']['hostname'],msg['payload']['ip']
         print(self.storage.agents)
-        return "send back {}".format(msg)
+        return "ack {}".format(msg)
 
     sendmsg =handle
 

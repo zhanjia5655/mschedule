@@ -49,3 +49,4 @@ b=A()
 # print(a.is_inited)
 # print(A.is_inited)
 
+print(444,id)
