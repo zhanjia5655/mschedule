@@ -1,4 +1,5 @@
 from .agent import Agent
+import uuid
 import datetime
 class Storage:
     def __init__(self):
@@ -12,13 +13,18 @@ class Storage:
         #             }
     def reg_hb(self,**payload):
         id=payload['id']
-        agent=self.agents.get(id)
+        agent=self.agents.get(id) #如果id不存在 返回None，不报错
+        # dict1 = {1: 'abc', 2: 'bcd'}
+        # print(dict1.get(0))  # None
         if not agent:
             agent={}
         agent['timestap']=datetime.datetime.now().timestamp()
-        agent['busy']=False
+        # agent['busy']=False
+        agent['busy']=self.agents.get(id,{}).get('busy',False)
         agent['info']=payload
         self.agents[id]=agent
+        #agents:
+        {'8bfce475806e469b8d64012ed1dfc1a7':{'timestap':'****','busy':False,'info':payload}}
         # agent=self.agents[id]
         # print(11,agent)
 
@@ -36,4 +42,25 @@ class Storage:
         # # self.agents[id]=Agent(id,hostname,ip)1
         # print(5555,self.agents)#5555 }'8bfce475806e469b8d64012ed1dfc1a7': ('8bfce475806e469b8d64012ed1dfc1a7', 'zhanjia-pc', ['200.200.200.88'])}
     def get_agents(self):
-        return self.agents
+        return list(self.agents.keys())
+    def add_task(self,msg:dict):
+        msg['task_id']=uuid.uuid4().hex
+        task=Task(**msg)
+        self.tasks[task.id]=task
+        return task.id
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
