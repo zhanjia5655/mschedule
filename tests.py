@@ -1,5 +1,5 @@
 from django.test import TestCase
-
+import datetime
 # Create your tests here.
 
 # import re
@@ -50,3 +50,10 @@ b=A()
 # print(A.is_inited)
 
 print(444,id)
+
+# dict1={1:'abc',2:'bcd'}
+# print(dict1.get(0)) #None
+# if not dict1.get(0):
+#     print('yyyyyy')
+
+print(datetime.datetime.now().timestamp())
